@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
-  color: rgb(226, 250, 11);
-  background-color: #da316f;
+  color: rgb(79, 250, 11);
+  background-color: #f01565;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #faf609;
+  background-color: #61fa09;
   border-radius: 0;
   border: 0;
 }
@@ -24,11 +24,11 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #66fa11;
+  color: #e3fa11;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgb(224, 19, 19);
+  text-shadow: 1px 1px 1px rgb(22, 19, 224);
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: rgb(255, 0, 0);
+  color: rgb(98, 0, 255);
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -50,7 +50,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #ff0762;
+  color: #7b07ff;
   text-align: center;
 }
 #nav-list a:hover {
@@ -87,7 +87,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: rgb(133, 39, 39);
+  background-color: rgb(91, 39, 133);
   border-top: 0;
 }
 .panel-footer div.row {
@@ -171,11 +171,11 @@ body {
   font-size: 1.2em;
   text-transform: uppercase;
   background-color: rgb(0, 0, 0);
-  color: rgb(161, 27, 27);
+  color: rgb(150, 27, 161);
   opacity: .8;
 }
 .category-tile:hover {
-  box-shadow: 0 1px 5px 1px #ff0505;
+  box-shadow: 0 1px 5px 1px #0516ff;
 }
 
 #menu-categories-title + div {
@@ -201,7 +201,7 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F; 
+  border: 2px solid #ca1054; 
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -214,7 +214,7 @@ body {
   bottom: 0;
   right: 0;
   width: 80px;
-  background-color: #436b2c;
+  background-color: #7cd449;
   text-align: center;
 }
 .menu-item-description {
@@ -299,9 +299,9 @@ h3.menu-item-title {
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid rgb(240, 0, 0);
+    border: 2px solid rgb(36, 0, 240);
     background-color: #ffb300;
-    color: #550422;
+    color: #045543;
   }
   #xs-deliver {
     margin-top: 5px;
